@@ -97,6 +97,7 @@ class PriorityQueue:
         final_node_pr = self.heap[self.size-1][0]
         self.swap(pos,self.size-1)
         self.size -= 1
+        self.indices[key-1] = -1
 
         if final_node_pr > this_node_pr:
             par = pos
@@ -109,7 +110,7 @@ class PriorityQueue:
                     break
         elif this_node_pr > final_node_pr:
             self.heapify(pos)
-            
+
     def add(self,key,value):
         self.heap[self.size] = [0,key]
         self.indices[key-1] = self.size
