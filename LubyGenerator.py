@@ -21,7 +21,7 @@ def get_next_luby_number():
     
     return l[size]
 
-def reset():
+def reset_luby():
     global l
     global mult
     global minu
