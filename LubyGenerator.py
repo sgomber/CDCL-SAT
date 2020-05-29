@@ -4,7 +4,7 @@ l=[]
 mult = 1
 minu = 0
 
-def get_next():
+def get_next_luby_number():
     global l
     global mult
     global minu
