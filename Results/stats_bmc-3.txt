@@ -1,20 +1,20 @@
 =========================== STATISTICS ===============================
 Solving formula from file:  test/sat/bmc-3.cnf
 Vars:14930, Clauses:72106 Stored Clauses:71987
-Input Reading Time:  0.3447904586791992
+Input Reading Time:  0.3543522357940674
 -------------------------------
 Restarts:  0
 Learned clauses:  4075
 Decisions made:  8860
 Implications made:  1857713
-Time taken:  29.321930646896362
+Time taken:  29.63986563682556
 ----------- Time breakup ----------------------
-BCP Time:  21.219342470169067
-Decide Time:  0.18748188018798828
-Conflict Analyze Time:  1.5340425968170166
-Backtrack Time:  6.0233213901519775
+BCP Time:  21.45599913597107
+Decide Time:  0.18982648849487305
+Conflict Analyze Time:  1.5342416763305664
+Backtrack Time:  6.091829538345337
 -------------------------------
 RESULT:  SAT
 Statistics stored in file:  Results/stats_bmc-3.txt
-Satisfying Assignment stored in file:  
+Satisfying Assignment stored in file:  Results/assgn_bmc-3.txt
 ======================================================================
