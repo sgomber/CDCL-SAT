@@ -1,0 +1,20 @@
+=========================== STATISTICS ===============================
+Solving formula from file:  test/sat/bmc-4.cnf
+Vars:28161, Clauses:139716 Stored Clauses:139499
+Input Reading Time:  0.7039265632629395
+-------------------------------
+Restarts:  0
+Learned clauses:  1277
+Decisions made:  9574
+Implications made:  577681
+Time taken:  10.423779487609863
+----------- Time breakup ----------------------
+BCP Time:  6.709230184555054
+Decide Time:  0.18600010871887207
+Conflict Analyze Time:  0.8910374641418457
+Backtrack Time:  1.925396203994751
+-------------------------------
+RESULT:  SAT
+Statistics stored in file:  Results/stats_bmc-4.txt
+Satisfying Assignment stored in file:  
+======================================================================
